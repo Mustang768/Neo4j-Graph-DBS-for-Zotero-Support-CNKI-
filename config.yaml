@@ -1,0 +1,27 @@
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "123456789"  # 修改为你的实际密码
+
+import:
+  default_csv_encoding: "utf-8-sig"
+  clear_database_before_import: false
+  
+# 字段映射配置（根据你的CSV调整）
+field_mappings:
+  key: "Key"
+  title: "Title"
+  authors: "Author"
+  manual_tags: "Manual Tags"
+  auto_tags: "Automatic Tags"
+  publication_year: "Publication Year"
+  doi: "DOI"
+  url: "Url"
+  abstract: "Abstract Note"
+  
+# 扩展节点配置
+extra_nodes:
+  enable_publisher: true
+  enable_journal: true
+  enable_subject: true
+  enable_conference: true
