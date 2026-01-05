@@ -1,9 +1,9 @@
 # Script for Zotero-Neo4j Support CNKI
 
 ## 介绍
--**EN**:This is a Zotero-compatible script designed to export categorized CSV files into Neo4j. 
+- **EN**:This is a Zotero-compatible script designed to export categorized CSV files into Neo4j. 
 It enables the analysis of logical and statistical relationships among papers, keywords, authors, and other information, facilitating the rapid clarification of research directions or enhancing literature management efficiency.
--**CN**：这是一个适配zotero的脚本，用于将其分类导出的CSV文件转存入Neo4j中以便我们分析论文、关键词、作者等信息的逻辑关系与统计关系，有利于快速理清论文写作方向或是提高文献管理效率。
+- **CN**：这是一个适配zotero的脚本，用于将其分类导出的CSV文件转存入Neo4j中以便我们分析论文、关键词、作者等信息的逻辑关系与统计关系，有利于快速理清论文写作方向或是提高文献管理效率。
 并且该脚本针对CNKI论文的数据格式进行了优化。
 
 ## 环境要求
